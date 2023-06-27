@@ -49,5 +49,5 @@ Please ensure that your code follows the existing coding style and includes appr
 
 If you have any questions, suggestions, or issues regarding this application, please feel free to contact me at [mariam.bakradze.1@btu.edu.ge].
 
-Project Link: https://github.com/mariaam123/dictionary
+Project Link: git@github.com:mariaam123/finaluri.git
 
