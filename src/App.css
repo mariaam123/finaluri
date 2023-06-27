@@ -1,0 +1,100 @@
+body {
+  overflow-x: none;
+}
+.dark-mode {
+  background-color: #050505;
+  margin: 0;
+  height: 100%;
+}
+.dark-mode p {
+  color: #757575;
+}
+.dark-mode ul {
+  list-style: none;
+  color: white;
+}
+.dark-mode input {
+  background-color: #1f1f1f;
+  color: white;
+}
+.dark-mode ul li::before {
+  content: "\2022";
+  color: #8f19e8;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.dark-mode select {
+  background-color: #000;
+  color: #fff;
+  border: none;
+}
+
+.dark-mode .selected-font {
+  background-color: #000;
+  color: white;
+  margin-top: 10px;
+}
+
+.selected-font img {
+  margin-top: 6px;
+}
+.dropdown {
+  border-radius: 16px;
+  margin-left: -40px;
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+}
+.dark-mode .dropdown {
+  background-color: #1f1f1f;
+  border-radius: 16px;
+  color: white;
+  box-shadow: 0px 5px 30px #a445ed;
+}
+.dark-mode option {
+  background-color: #1f1f1f;
+}
+.moon {
+  margin-left: 5px;
+}
+.dark-mode .moon {
+  color: #8f19e8;
+}
+
+.app-container {
+  padding: 2vw 4vw;
+}
+
+.header-right div {
+  justify-content: space-between;
+}
+
+.dark-mode h3 {
+  color: white;
+}
+
+.dark-mode hr {
+  opacity: 0.5;
+}
+
+.dark-mode h4 {
+  color: white;
+}
+
+.dark-mode h2 {
+  color: white;
+}
+
+.switch {
+  margin: 0 10px;
+}
+
+input[type="text"]:focus {
+  border: 1px solid #a445ed;
+}
+
+@media (min-width: 1336px) {
+  body {
+    padding: 0 20vw;
+  }
+}
